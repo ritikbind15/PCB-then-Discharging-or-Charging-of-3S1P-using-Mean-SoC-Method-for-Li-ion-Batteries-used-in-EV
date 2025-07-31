@@ -3,6 +3,8 @@ This simulation project demonstrates Passive Cell Balancing (PCB) followed by di
 
 The goal of this simulation is to show how passive balancing can equalize SoC among cells before energy is drawn (discharging) or stored (charging), using an intelligent Mean SoC-based strategy to initiate balancing actions.
 
+
+
 ⚙️ Key Concepts
 🔋 3S1P Li-ion Configuration
 3 cells connected in series (to increase voltage)
@@ -11,12 +13,14 @@ The goal of this simulation is to show how passive balancing can equalize SoC am
 
 Used commonly in compact EV applications
 
+
 🧠 Mean SoC Balancing Logic
 Calculates the average SoC of all three cells.
 
 Cells with SoC above this average are discharged passively using resistors.
 
 Balancing is triggered only when the SoC deviation exceeds a threshold, making it energy-efficient.
+
 
 🔁 Post-Balancing Operation
 After the balancing process stabilizes:
@@ -25,6 +29,7 @@ The pack can either discharge to simulate power delivery (e.g., during vehicle d
 or
 
 Charge to simulate energy storage (e.g., during regenerative braking or plug-in charging).
+
 
 💡 Objectives of the Simulation
 To ensure all cells are at approximately equal SoC before operation to:
@@ -39,6 +44,7 @@ To demonstrate a passive balancing technique that is simple, low-cost, and relia
 
 To simulate real-world EV conditions using MATLAB/Simulink.
 
+
 🛠️ Tools and Techniques
 Software: MATLAB/Simulink
 
@@ -47,6 +53,7 @@ Balancing Type: Passive (Resistive bleeding)
 Control Logic: Mean SoC threshold activation
 
 Battery Chemistry Modeled: Generic Li-ion (customizable)
+
 
 📈 What You’ll See in the Simulation
 Real-time cell voltage and SoC curves
@@ -59,6 +66,7 @@ Energy losses during balancing (optional for analysis)
 
 Final SoC convergence before main operation
 
+
 📦 Applications
 Electric two-wheeler battery management
 
@@ -67,6 +75,7 @@ Educational models for BMS development
 Research on SoC-based balancing strategies
 
 Low-cost embedded BMS firmware testing
+
 
 🔖 Future Improvements
 Extend to nS1P or nSxP systems (e.g., 8S2P)
