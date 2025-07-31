@@ -1,0 +1,2 @@
+# PCB-then-Discharging-or-Charging-of-3S1P-using-Mean-SoC-Method-for-Li-ion-Batteries-used-in-EV
+This project presents a MATLAB-based simulation of a passive cell balancing algorithm implemented on a 3S1P configuration using Mean SoC discharging logic for Li-ion batteries. The goal is to ensure uniform state-of-charge (SoC) across all cells, enhancing the performance, safety, and lifespan of battery packs used in electric Vehicles. 
